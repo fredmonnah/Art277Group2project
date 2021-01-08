@@ -1,4 +1,6 @@
 /* background image and and color */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
 .body {
     background-image: url("bg.jpg"); /* the background image used */
     background-color: lightgray; /* the background color used if the image is unavailable*/  
@@ -9,6 +11,8 @@
 
 
 /* Add a transperent background color to the top navigation */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .nav {
     overflow: hidden;
     background-color: transparent; /* Making the background transparent */
@@ -42,6 +46,8 @@
 }
 
  /* Div 1 font setting and positioning */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .firstdiv {
     font-family: courier;
     font-size: 40px;
@@ -52,6 +58,8 @@
     
 }
 /* Buy ticket button */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .ticketbutton {
   background-color:yellow; /* Green */
   border: none;
@@ -72,6 +80,8 @@
 }
 
 /* Div 2 font setting and positioning */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .secdiv {
     font-family: courier;
     font-size: 20px;
@@ -84,6 +94,8 @@
 }
 
 /* Div 3 font and size setting and positioning */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .thrediv {
     font-family: courier;
     font-size: 20px;
@@ -96,6 +108,8 @@
 }
 
 /* Div 4 font and size setting and positioning  */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .foudiv {
     font-family: courier;
     font-size: 20px;
@@ -106,6 +120,8 @@
 }
 
 /* Div 5 font and size setting and positioning */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .fivdiv {
      position: sticky;
     font-family: courier;
@@ -121,11 +137,15 @@
 
 
 /* Corner div para setting */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .para {
     color: white;
     text-align: center;
 }
 /*Div 7 font, position and size setting */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .sevdiv {
     font-family: courier;
     font-size: 20px;
@@ -136,11 +156,14 @@
     text-align: center;
 }
 /* Sponsor images setting */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .sponpic {
     height: 100px;
     width: 100px;
 }
-
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .col_a {
     float: right;
     height: 180px;
@@ -159,7 +182,8 @@
     font-family: courier;
     border: 2px solid black;
 }
-
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .sch-col, td {
     background-color: whitesmoke;
     width: 50%;
@@ -172,7 +196,8 @@
 .th{
     background-color: antiquewhite;
 }
-
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 div.sch-intro {
      width: 50%;
     margin-top: 30%;
@@ -181,6 +206,8 @@ div.sch-intro {
     font-family: courier;
     font-family: courier;
 }
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 div.about-intro {
      width: 80%;
     margin-top: 30%;
@@ -189,6 +216,8 @@ div.about-intro {
     font-family: courier;
     font-family: courier;
 }
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 div.about-codeofcon {
      width: 80%;
     margin-top: 10%;
@@ -198,6 +227,8 @@ div.about-codeofcon {
     font-family: courier;
 }
 /* Gallary setup */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 div.gallery {
   margin-top: 200px;
   border: 1px solid #ccc;
@@ -208,12 +239,14 @@ div.gallery {
 div.gallery:hover {
   border: 1px solid #777;
 }
-
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 .gallery photo {
   width: 40%;
   height: auto;
 }
-
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 div.desc {
   padding: 15px;
 font-family: courier;
@@ -225,6 +258,8 @@ div.positions2 {
     float: right;
 }
 /* Registration form */
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -234,7 +269,8 @@ input[type=text], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 input[type=submit] {
   width: 100%;
   background-color: #4CAF50;
@@ -249,7 +285,8 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px)
 div.regform {
   border-radius: 5px;
   background-color: #f2f2f2;
