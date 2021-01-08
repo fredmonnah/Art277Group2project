@@ -12,7 +12,7 @@
 
 /* Add a transperent background color to the top navigation */
 /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px)
+@media screen and (min-width: 480px)
 .nav {
     overflow: hidden;
     background-color: transparent; /* Making the background transparent */
