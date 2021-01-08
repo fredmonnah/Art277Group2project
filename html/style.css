@@ -1,6 +1,6 @@
 /* background image and and color */
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px)
+@media screen and (min-width: 480px)
 .body {
     background-image: url("bg.jpg"); /* the background image used */
     background-color: lightgray; /* the background color used if the image is unavailable*/  
